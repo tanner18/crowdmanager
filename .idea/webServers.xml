@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5a53bb04-ef2a-45de-8353-bcf86984e1de" name="github.com/tanner18" url="http://ssh -T -p 443 git@ssh.github.com">
+        <fileTransfer host="ssh -T -p 443 git@ssh.github.com" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
